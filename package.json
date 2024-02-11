@@ -16,7 +16,7 @@
     "type-check": "tsc --noEmit",
     "prepare": "husky",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
